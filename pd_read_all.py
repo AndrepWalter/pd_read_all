@@ -14,4 +14,3 @@ def read_all(path='.',regex=r'.xls',filesamount=True,subfolders=False, concat=Fa
     dataframes = Col_rename(dataframes=dataframes, colnames=colnames)
 
     return dataframes
-    
