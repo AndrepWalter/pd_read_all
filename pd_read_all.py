@@ -15,4 +15,3 @@ def read_all(path='.',regex=r'.xls',filesamount=True,subfolders=False, concat=Fa
 
     return dataframes
     
-read_all(path='../..', subfolders=True, skiprows=1)
